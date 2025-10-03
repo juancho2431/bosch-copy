@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" aria-labelledby="title desc">
+  <title id="title">Logotipo Servicio Técnico Inmediato</title>
+  <desc id="desc">Logotipo con ícono de calentador y textos Servicio Técnico Inmediato Calentadores.</desc>
+  <defs>
+    <radialGradient id="lockup-bg" cx="10%" cy="10%" r="120%">
+      <stop offset="0%" stop-color="#0b1728" />
+      <stop offset="60%" stop-color="#050c16" />
+      <stop offset="100%" stop-color="transparent" />
+    </radialGradient>
+    <linearGradient id="lockup-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#52b4ff" />
+      <stop offset="100%" stop-color="#0050a4" />
+    </linearGradient>
+    <linearGradient id="lockup-orange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff8246" />
+      <stop offset="100%" stop-color="#ff243f" />
+    </linearGradient>
+    <filter id="soft-blue" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="blur" />
+      <feFlood flood-color="#2c9eff" flood-opacity="0.42" />
+      <feComposite in2="blur" operator="in" />
+      <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="soft-orange" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feFlood flood-color="#ff5c3b" flood-opacity="0.55" />
+      <feComposite in2="blur" operator="in" />
+      <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="720" height="220" rx="36" fill="url(#lockup-bg)" />
+  <g transform="translate(32 26)">
+    <g filter="url(#soft-blue)">
+      <rect x="0" y="0" width="140" height="168" rx="32" fill="rgba(15,31,51,0.72)" />
+      <g transform="translate(28 18)">
+        <rect x="12" y="12" width="72" height="112" rx="18" fill="none" stroke="url(#lockup-blue)" stroke-width="8" />
+        <rect x="32" y="0" width="32" height="20" rx="9" fill="none" stroke="url(#lockup-blue)" stroke-width="8" />
+        <rect x="36" y="108" width="20" height="22" rx="8" fill="none" stroke="url(#lockup-blue)" stroke-width="8" />
+        <path d="M48 48c0 14-12 22-24 22s-24-8-24-22c0-12 9-22 24-31 15 9 24 19 24 31z" fill="url(#lockup-blue)" opacity="0.12" />
+        <path d="M36 78c-8 0-14-6-14-14 0-8 6-14 14-19 8 5 14 11 14 19 0 8-6 14-14 14z" fill="none" stroke="url(#lockup-blue)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+    <g filter="url(#soft-orange)" transform="translate(84 96)">
+      <path d="M120 54a21 21 0 0 0-8.5-2.9l-7.5-0.7 3.8-3.8a8.5 8.5 0 0 0 0-12l-5.5-5.5-25.8 25.8 5.5 5.5a8.5 8.5 0 0 0 12 0l3.6-3.6 0.7 7.4a21 21 0 0 0 2.9 8.5l8.7 16a7 7 0 0 0 9.6 2.6 7 7 0 0 0 2.6-2.6l9.4-17.2a21 21 0 0 0-2.9-24.5z" fill="url(#lockup-orange)" />
+    </g>
+  </g>
+  <g transform="translate(220 70)">
+    <text font-family="'Montserrat', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="600" letter-spacing="2" fill="url(#lockup-blue)" y="32">
+      SERVICIO TÉCNICO
+    </text>
+    <text font-family="'Montserrat', 'Helvetica Neue', Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="4" fill="url(#lockup-orange)" y="108">
+      INMEDIATO
+    </text>
+    <text font-family="'Montserrat', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="500" letter-spacing="3" fill="rgba(82, 180, 255, 0.8)" y="162">
+      Calentadores
+    </text>
+  </g>
+</svg>
